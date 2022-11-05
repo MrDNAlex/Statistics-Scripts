@@ -3,3 +3,5 @@ function p = z_dis_tot (max)
 
 p = integral(@z_dis_eq, -Inf, max);
 
+disp("P(Z <= " + max + ") : " + p);
+

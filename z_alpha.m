@@ -10,7 +10,7 @@ prob = 1 - alpha;
 min = -100;
 max = 100;
 point = 0;
-eps = 0.00000001;
+eps = 0.00001;
 diff = 1000;
 
 while (diff > eps)
@@ -26,7 +26,8 @@ while (diff > eps)
 
 end
 
-z = point; 
+z = point;
+disp("Z_alpha = "  + z);
 
 
 %Old Failed Method, maybe one day we will figure it out, I think the
