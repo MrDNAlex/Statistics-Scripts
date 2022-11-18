@@ -1,0 +1,5 @@
+function sxx = Sxx (datax)
+
+%sxx = sum((datax - mean(datax)).^2);
+sxx = sum(sumx2(datax) - ((sumx(datax).^2)./2))
+

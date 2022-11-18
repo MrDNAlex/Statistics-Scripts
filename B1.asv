@@ -1,0 +1,8 @@
+function b1 = B1 (datax, datay)
+%[ran, n] = size(data);
+%val = (sum_xy(data) - ((sum_y(data).*sum_x(data))./n))./(sum_x2(data) - ((sum_x(data).^2)./n));
+disp(Sxy(datax, datay));
+disp()
+b1 = Sxy(datax, datay)./Sxx(datax);
+
+

@@ -1,3 +1,3 @@
-function tot = sum_xy (x, y)
+function tot = sum_xy (datax, datay)
 
-tot = sum(x.*y);
+tot = sum(datax.*datay);
